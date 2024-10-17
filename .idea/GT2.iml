@@ -11,5 +11,8 @@
     </content>
     <orderEntry type="jdk" jdkName="ruby-3.3.5-p100" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.3.0, ruby-3.3.5-p100) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.16.7, ruby-3.3.5-p100) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="racc (v1.7.3, ruby-3.3.5-p100) [gem]" level="application" />
   </component>
 </module>
