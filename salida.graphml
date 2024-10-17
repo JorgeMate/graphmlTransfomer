@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/1.1/graphml.xsd">
+  <graph id="G" edgedefault="directed">
+    <node id="_note" label="note"/>
+    <edge source="_note" target="_note_top"/>
+    <edge source="_note" target="_note_mid"/>
+    <edge source="_note" target="_note_cat"/>
+    <node id="_note_top" label="top"/>
+    <edge source="_note_top" target="_note_top_nested[1]"/>
+    <edge source="_note_top" target="_note_top_nested[2]"/>
+    <edge source="_note_top" target="_note_top_nested[3]"/>
+    <node id="_note_top_nested[1]" label="nested"/>
+    <edge source="_note_top_nested[1]" target="_note_top_nested[1]_b"/>
+    <node id="_note_top_nested[1]_b" label="b"/>
+    <node id="_note_top_nested[2]" label="nested"/>
+    <node id="_note_top_nested[3]" label="nested"/>
+    <node id="_note_mid" label="mid"/>
+    <edge source="_note_mid" target="_note_mid_nested"/>
+    <edge source="_note_mid" target="_note_mid_more"/>
+    <edge source="_note_mid" target="_note_mid_even"/>
+    <node id="_note_mid_nested" label="nested"/>
+    <node id="_note_mid_more" label="more"/>
+    <node id="_note_mid_even" label="even"/>
+    <node id="_note_cat" label="cat"/>
+  </graph>
+</graphml>
