@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <top xxx="Hello world!">
+    <nested>He <b>x</b> 11o</nested>
+    <nested>World</nested>
+    <nested>Again</nested>
+  </top>
+  <mid xxx="Hello World!">
+    <nested>Hello</nested>
+    <more>false</more>
+    <even>2</even>
+  </mid>
+  <cat />
+</note>
